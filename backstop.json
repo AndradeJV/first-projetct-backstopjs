@@ -17,6 +17,13 @@
       "requireSameDimensions": true
     },
     {
+      "label": "Initial state specific component",
+      "selectors": [".login_logo"],
+      "url": "https://www.saucedemo.com/",
+      "misMatchThreshold" : 0,
+      "requireSameDimensions": true
+    },
+    {
       "label": "Click button login",
       "url": "https://www.saucedemo.com/",
       "clickSelector": "#login-button",
@@ -35,6 +42,14 @@
       "label": "Complete login valid",
       "url": "https://www.saucedemo.com/",
       "onReadyScript": "puppet/custom/completLoginValid.js",      
+      "misMatchThreshold" : 0,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Validade specific card after login",
+      "onReadyScript": "puppet/custom/completLoginValid.js", 
+      "selectors": ["div:nth-child(1) > .inventory_item_description"],
+      "url": "https://www.saucedemo.com/",
       "misMatchThreshold" : 0,
       "requireSameDimensions": true
     }
