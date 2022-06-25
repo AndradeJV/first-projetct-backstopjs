@@ -1,0 +1,78 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\SwagLabs_Initial_state_0_document_0_tablet.png",
+        "test": "..\\bitmaps_test\\20220624-224828\\SwagLabs_Initial_state_0_document_0_tablet.png",
+        "selector": "document",
+        "fileName": "SwagLabs_Initial_state_0_document_0_tablet.png",
+        "label": "Initial state",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0,
+        "url": "https://www.saucedemo.com/",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\SwagLabs_Click_button_login_0_document_0_tablet.png",
+        "test": "..\\bitmaps_test\\20220624-224828\\SwagLabs_Click_button_login_0_document_0_tablet.png",
+        "selector": "document",
+        "fileName": "SwagLabs_Click_button_login_0_document_0_tablet.png",
+        "label": "Click button login",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0,
+        "url": "https://www.saucedemo.com/",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\SwagLabs_Invalid_user_0_document_0_tablet.png",
+        "test": "..\\bitmaps_test\\20220624-224828\\SwagLabs_Invalid_user_0_document_0_tablet.png",
+        "selector": "document",
+        "fileName": "SwagLabs_Invalid_user_0_document_0_tablet.png",
+        "label": "Invalid user",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0,
+        "url": "https://www.saucedemo.com/",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.012727130325814535,
+          "misMatchPercentage": "0.01",
+          "analysisTime": 33
+        },
+        "diffImage": "..\\bitmaps_test\\20220624-224828\\failed_diff_SwagLabs_Invalid_user_0_document_0_tablet.png"
+      },
+      "status": "fail"
+    }
+  ],
+  "id": "Swag Labs"
+}

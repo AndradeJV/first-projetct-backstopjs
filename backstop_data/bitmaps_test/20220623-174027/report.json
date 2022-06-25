@@ -1,0 +1,22 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\Amazon_Initial_state_0_document_0_tablet.png",
+        "test": "..\\bitmaps_test\\20220623-174027\\Amazon_Initial_state_0_document_0_tablet.png",
+        "selector": "document",
+        "fileName": "Amazon_Initial_state_0_document_0_tablet.png",
+        "label": "Initial state",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0,
+        "url": "https://www.amazon.com.br/",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "error": "Reference file not found C:\\sandbox\\studies\\automation\\js\\backstopjs\\init\\backstop_data\\bitmaps_reference\\Amazon_Initial_state_0_document_0_tablet.png"
+      },
+      "status": "fail"
+    }
+  ],
+  "id": "Amazon"
+}

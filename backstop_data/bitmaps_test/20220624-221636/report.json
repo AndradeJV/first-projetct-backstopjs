@@ -1,0 +1,58 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\SwagLabs_Initial_state_0_document_0_tablet.png",
+        "test": "..\\bitmaps_test\\20220624-221636\\SwagLabs_Initial_state_0_document_0_tablet.png",
+        "selector": "document",
+        "fileName": "SwagLabs_Initial_state_0_document_0_tablet.png",
+        "label": "Initial state",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0,
+        "url": "https://www.saucedemo.com/",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": -4811
+          },
+          "rawMisMatchPercentage": 16.509648874129272,
+          "misMatchPercentage": "16.51",
+          "analysisTime": 159
+        },
+        "diffImage": "..\\bitmaps_test\\20220624-221636\\failed_diff_SwagLabs_Initial_state_0_document_0_tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\SwagLabs_Initial_state_0_document_0_tablet.png",
+        "test": "..\\bitmaps_test\\20220624-221636\\SwagLabs_Initial_state_0_document_0_tablet.png",
+        "selector": "document",
+        "fileName": "SwagLabs_Initial_state_0_document_0_tablet.png",
+        "label": "Initial state",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0,
+        "url": "https://www.amazon.com.br/",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": -4811
+          },
+          "rawMisMatchPercentage": 16.509648874129272,
+          "misMatchPercentage": "16.51",
+          "analysisTime": 159
+        },
+        "diffImage": "..\\bitmaps_test\\20220624-221636\\failed_diff_SwagLabs_Initial_state_0_document_0_tablet.png"
+      },
+      "status": "fail"
+    }
+  ],
+  "id": "Swag Labs"
+}
