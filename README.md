@@ -1,0 +1,1 @@
+# Regression visual Tests with BackstopJs
