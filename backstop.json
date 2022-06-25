@@ -1,5 +1,5 @@
 {
-  "id": "Amazon",
+  "id": "Swag Labs",
   "viewports": [
     {
       "label": "tablet",
@@ -12,7 +12,29 @@
   "scenarios": [
     {
       "label": "Initial state",
-      "url": "https://www.amazon.com.br/",
+      "url": "https://www.saucedemo.com/",
+      "misMatchThreshold" : 0,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Click button login",
+      "url": "https://www.saucedemo.com/",
+      "clickSelector": "#login-button",
+      "misMatchThreshold" : 0,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Invalid user",
+      "url": "https://www.saucedemo.com/",
+      "onReadyScript": "puppet/custom/invalidLogin.js",
+      "clickSelector": "#login-button",      
+      "misMatchThreshold" : 0,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Complete login valid",
+      "url": "https://www.saucedemo.com/",
+      "onReadyScript": "puppet/custom/completLoginValid.js",      
       "misMatchThreshold" : 0,
       "requireSameDimensions": true
     }
